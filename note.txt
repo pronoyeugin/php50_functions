@@ -1,0 +1,85 @@
+
+String function:
+
+strlen() - Get the length of a string.
+str_replace() - Replace all occurrences of a search string with a replacement.
+substr() - Return a portion of a string.
+strpos() - Find the position of the first occurrence of a substring.
+trim() - Strip whitespace or other characters from the beginning and end of a string.
+explode() - Split a string by a specific delimiter.
+implode() - Join array elements into a string using a delimiter.
+
+Array Functions:
+
+array_merge() - Merge one or more arrays.
+array_push() - Add one or more elements to the end of an array.
+array_pop() - Remove the last element from an array.
+array_map() - Apply a callback to each element of an array.
+array_filter() - Filter the elements of an array using a callback function.
+in_array() - Check if a value exists in an array.
+**array_keys() / array_values() - Retrieve all keys or values from an array.
+
+Date and Time Functions:
+
+date() - Format a local date and time.
+time() - Get the current Unix timestamp.
+strtotime() - Parse a date/time string into a Unix timestamp.
+DateTime class - Object-oriented date and time manipulation.
+
+Math Functions:
+
+abs() - Absolute value of a number.
+round() - Round a floating-point number.
+rand() / mt_rand() - Generate a random integer.
+ceil() / floor() - Round fractions up or down.
+
+File Handling:
+
+file_get_contents() - Read the entire contents of a file into a string.
+file_put_contents() - Write data to a file.
+fopen() / fwrite() / fclose() - Open, write to, and close a file.
+unlink() - Delete a file.
+
+Error Handling:
+
+error_reporting() - Set which errors are reported.
+trigger_error() - Generate a user-level error/warning/notice.
+set_error_handler() - Set a user-defined error handler.
+
+Session and Cookie Management:
+
+session_start() - Start a new session or resume an existing one.
+session_destroy() - Destroy all data registered to a session.
+setcookie() - Send a cookie.
+
+Database Functions:
+
+mysqli_connect() / PDO - Connect to a MySQL database.
+mysqli_query() - Perform a query on the database.
+mysqli_fetch_assoc() - Fetch a result row as an associative array.
+PDO::prepare() / PDO::execute() - Securely execute database queries.
+
+HTTP and Headers:
+
+header() - Send a raw HTTP header.
+http_response_code() - Get or set the HTTP response status code.
+
+Validation and Sanitization:
+
+filter_var() - Validate and sanitize data (e.g., email, URLs).
+htmlspecialchars() - Convert special characters to HTML entities.
+strip_tags() - Strip HTML and PHP tags from a string.
+JSON Functions
+
+JSON Functions:
+
+json_encode() - Encode data to JSON format.
+json_decode() - Decode a JSON string.
+
+Miscellaneous:
+
+print_r() / var_dump() - Output human-readable or detailed variable information.
+die() / exit() - Terminate the script execution.
+is_array() / is_string() / is_numeric() - Check variable types.
+require() / include() - Include and evaluate a file.
+
